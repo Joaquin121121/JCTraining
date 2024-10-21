@@ -1,0 +1,51 @@
+[debug] [2024-10-21T16:15:54.628Z] ----------------------------------------------------------------------
+[debug] [2024-10-21T16:15:54.630Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\A\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-10-21T16:15:54.630Z] CLI Version:   13.22.1
+[debug] [2024-10-21T16:15:54.630Z] Platform:      win32
+[debug] [2024-10-21T16:15:54.630Z] Node Version:  v20.12.2
+[debug] [2024-10-21T16:15:54.630Z] Time:          Mon Oct 21 2024 13:15:54 GMT-0300 (hora estándar de Argentina)
+[debug] [2024-10-21T16:15:54.630Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-21T16:15:54.681Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-21T16:15:54.681Z] > authorizing via signed-in user (joaquindelrio121@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\A\Documents\CARPETAS\PROGRAMACION\JCTraining\jctraining
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-21T16:15:59.315Z] Using project from CLI flag: jctraining-8c0f4
+[debug] [2024-10-21T16:15:59.316Z] Checked if tokens are valid: true, expires at: 1729530536718
+[debug] [2024-10-21T16:15:59.316Z] Checked if tokens are valid: true, expires at: 1729530536718
+[debug] [2024-10-21T16:15:59.317Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jctraining-8c0f4 [none]
+[debug] [2024-10-21T16:15:59.677Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jctraining-8c0f4 200
+[debug] [2024-10-21T16:15:59.677Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jctraining-8c0f4 {"projectId":"jctraining-8c0f4","projectNumber":"41363614884","displayName":"JCTraining","name":"projects/jctraining-8c0f4","resources":{"hostingSite":"jctraining-8c0f4"},"state":"ACTIVE","etag":"1_568eda20-76bf-403b-9c6b-e64e1770d105"}
+[info] i  Using project jctraining-8c0f4 (JCTraining) 
+[info] 
+=== Hosting Setup
+[debug] [2024-10-21T16:15:59.682Z] Checked if tokens are valid: true, expires at: 1729530536718
+[debug] [2024-10-21T16:15:59.682Z] Checked if tokens are valid: true, expires at: 1729530536718
+[debug] [2024-10-21T16:15:59.682Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jctraining-8c0f4 [none]
+[debug] [2024-10-21T16:15:59.936Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jctraining-8c0f4 200
+[debug] [2024-10-21T16:15:59.936Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jctraining-8c0f4 {"projectId":"jctraining-8c0f4","projectNumber":"41363614884","displayName":"JCTraining","name":"projects/jctraining-8c0f4","resources":{"hostingSite":"jctraining-8c0f4"},"state":"ACTIVE","etag":"1_568eda20-76bf-403b-9c6b-e64e1770d105"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
