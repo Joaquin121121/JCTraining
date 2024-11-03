@@ -50,6 +50,56 @@
   margin: auto;
 }
 
+.calendar {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calendarRow {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dayCard {
+  width: 30%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayCard .day {
+  font-weight: 300;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+.dayCard .activity {
+  font-weight: 500;
+  font-size: 14px;
+  color: #003d59;
+  margin-top: 10px;
+}
+
+.dayCard .restDay {
+  font-weight: 300;
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: start;
+}
+
 h2 {
   margin: 40px 0;
   font-size: 24px;
